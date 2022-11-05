@@ -245,6 +245,8 @@ img {
   background:linear-gradient(to right, #ddd431, #f3ab4d);
 }
 
+/* Play Again button */
+
 .playAgain-container {
   display: flex;
   justify-content: center;

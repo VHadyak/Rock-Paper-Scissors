@@ -25,8 +25,8 @@ const computerParent = document.querySelector(".computer-display");
 
 uiContainer.style.display = "none";                                                                                // Game UI disabled, unless 'Start' button is clicked
 
-gameStart = () => {                                                                                                // Displays game UI after 'Start' button has been clicked
-  startBtn.addEventListener("click", () => {
+gameStart = () => {                                                                                                
+  startBtn.addEventListener("click", () => {                                                                       // Displays game UI after 'Start' button has been clicked
     uiContainer.style.display = "initial";    
     welcomeMsg.style.display = "none";
     startBtn.style.display = "none";
